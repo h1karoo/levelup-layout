@@ -1,0 +1,233 @@
+.order-form {
+    width: 1500px;
+    height: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.order-name {
+    width: 1400px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+}
+.order-name:hover {
+    background: linear-gradient( 
+    white 80%, 
+    transparent 50%);
+  background-size: 2em 2em;
+  background-color: black;
+}
+.order-name p {
+    font-size: 60px;
+    line-height: 200px;
+    text-align: center;
+    font-weight: 600;
+}
+.order-timer {
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+    width: 1400px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.countdown-title {
+
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 400px;
+    bottom: 100px;
+  }
+  
+  .countdown {
+    width: 300px;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 50px;
+    font-weight: 600;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    transition: 500ms;
+  }
+  .countdown:hover {
+    background: linear-gradient( 90deg,
+      rgba(0,0,0,.1) 30%, rgba(0,0,0,0) 30%),
+    linear-gradient( 
+        #FBF2EB, rgba(255,255,255,0));
+  background-size: 2em 2em, 100%;
+  background-color: #352A3B;
+  }
+  
+  .countdown-number {
+    display: inline-block;
+  }
+  
+  .countdown-time {
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+  }
+  .countdown-text {
+    color: white;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .deadline-message{
+    display: none;
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  .visible{
+    display: block;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  .countdown-number-none {
+    display: none;
+  }
+  .order-info {
+    margin-top: 20px;
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .order-image {
+    width: 40%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order-price {
+    margin-top: 20px;
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order-price span {
+    position: absolute;
+    line-height: 100px;
+    font-size: 20px;
+    margin-left: 60px;
+    font-style: italic;
+    text-decoration: line-through;
+  }
+  .form {
+    width: 697px;
+    height: 700px;
+    border: 2px solid black;
+    display: inline-block;
+  }
+  .name-order {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    margin-top: 200px;
+  }
+  .phone-number {
+    position: absolute;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    margin-top: 300px;
+    color: black;
+  }
+input {
+    margin-left: 150px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.order-finBtn {
+    margin-top: 500px;
+    height: 40px;
+    bottom: 200px;
+    margin-right: 200px;
+    width: 300px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    transition: 500ms;
+}
+.order-finBtn:hover {
+    color: white;
+    background-color: black;
+}
+.form p {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+.container {
+  height: 100%;
+  float: left;
+}
+
+svg {
+    display: inline-block;
+    font: 200px 'Nunito';
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #000000;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #e231fd;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

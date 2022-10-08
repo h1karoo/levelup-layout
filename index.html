@@ -11,9 +11,14 @@
     <link rel="stylesheet" href="/style/promo.css">
     <link rel="stylesheet" href="/style/composition.css">
     <link rel="stylesheet" href="/style/slider.css">
-    <title>LevelUp</title>
+    <link rel="stylesheet" href="/style/second-promo.css">
+    <link rel="stylesheet" href="/style/order-form.css">
+    <title>
+      LevelUp
+    </title>
 </head>
 <body>
+  
     <div class="promo">
         <video autoplay muted loop id="myVideo">
             <source src="src/videoplayback1.mp4" type="video/mp4">
@@ -32,7 +37,7 @@
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                     </ul>
-                    <button class="orderBtn">
+                    <button onclick="handleButtonClick()" class="orderBtn">
                         <b>ЗАКАЗАТЬ</b>
                     </button>
                 </div>
@@ -70,6 +75,9 @@
             <div class="middle-block">
 
             </div>
+            <button class="middleBtn">
+              <b>ЗАКАЗАТЬ</b>
+            </button>
         </div>
         <div class="rightside">
             <div class="rightside-block">
@@ -146,7 +154,103 @@
             </div>
           </div>
         </div>
-      </div>  
-    <script src="/script/slider.js"></script>
+    </div>
+    <div class="second-promo">
+        <div class="person">
+          <img src="/src/doctor-levelup.png">
+        </div>
+        <div class="product-spec">
+          <p>
+            <b>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+               ullamco laboris nisi ut aliquip ex ea commodo consequat
+               . Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                 occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+            </b>
+          </p>
+          <button class="product-specBtn">
+            <b>ЗАКАЗАТЬ</b>
+          </button>
+        </div>
+        <div class="promo-char">
+          <p>
+            GOOD
+          </p>
+          <p>
+            PERFECT
+          </p>
+          <p>
+            PRETTY
+          </p>
+        </div>
+    </div>
+    <div class="order-form">
+      <div class="order-name">
+        <p>
+           LevelUp
+        </p>
+      </div>
+      <div class="order-timer">
+        <h1 class="countdown-title">Оставшееся время</h1>
+<div id="deadline-message" class="deadline-message">
+  Time is up!
+</div>
+<div id="countdown" class="countdown">
+  <div class="countdown-number-none">
+    <span class="days countdown-time"></span>
+    <span class="countdown-text">Days</span>
+  </div>
+  <div class="countdown-number-none">
+    <span class="hours countdown-time"></span>
+    <span class="countdown-text">Hours</span>
+  </div>
+  <div class="countdown-number">
+    <span class="minutes countdown-time"></span>
+    <span class="countdown-text">Минут</span>
+  </div>
+  <div class="countdown-number">
+    <span class="seconds countdown-time">:</span>
+    <span class="countdown-text">Секунд</span>
+  </div>
+</div>
+      </div>
+      <div class="order-info">
+        <div class="order-image">
+          <img src="/src/prod.png">
+        </div>
+        <div class="order-price">
+          <div class="container">
+            <svg viewBox="0 0 960 300">
+              <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">20000 ₽</text>
+              </symbol>
+          
+              <g class = "g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+            </svg>
+          </div>
+          <span>19000₽</span>
+        </div>
+      </div>
+      <div id = "form" class="form">
+        <p>Форма заказа</p>
+        <input placeholder="Введите имя" class="name-order">
+        <input type="number" placeholder="Введите номер телефона" class="phone-number">
+        <button class="order-finBtn">
+          <b>ЗАКАЗАТЬ</b>
+        </button>
+      </div>
+    </div>
+    <script src="/script/timer.js"></script>
+    <script src="script/order.js"></script>
 </body>
 </html>
