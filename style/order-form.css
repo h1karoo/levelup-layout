@@ -178,13 +178,10 @@ input::-webkit-inner-spin-button {
     margin-left: 200px;
     margin-top: 70px;
 }
-
-
 .container {
   height: 100%;
   float: left;
 }
-
 svg {
     display: inline-block;
     font: 200px 'Nunito';
