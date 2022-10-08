@@ -231,3 +231,70 @@ svg {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
+@media (max-width:375px) {
+  .order-form {
+    width: 350px;
+    height: 700px;
+  }
+  .order-name {
+    width: 350px;
+  }
+  .order-timer {
+    width: 350px;
+  }
+  .countdown {
+    height: 148px;
+    margin-top: 0;
+    width: 100px;
+  }
+  .countdown-title {
+    top: 40px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .order-info {
+    width: 170px;
+    height: 305px;
+    margin-left: 0px;
+  }
+  .order-price {
+    width: 170px;
+  }
+  svg {
+    margin-left: -80px;
+    font-size: 100px;
+    margin-top: -130px;
+  }
+  .order-price span {
+    margin-top: 20px;
+    margin-left: -200px;
+  }
+  .form {
+    width: 170px;
+    height: 305px;
+  }
+  .name-order {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 100px;
+  }
+  .phone-number {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 150px;
+  }
+  .form p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+  .order-finBtn {
+    margin-top: 200px;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+  }
+}

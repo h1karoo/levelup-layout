@@ -59,3 +59,37 @@
     color: white;
     background-color: black;
 }
+@media (max-width:375px) {
+    .second-promo {
+        height: 300px;
+        width: 350px;
+    }
+    .person {
+        width: 170px;
+        margin-left: 5px;
+    }
+    .product-spec {
+        width: 160px;
+        height: 190px;
+    }
+    .product-spec p {
+        top: 10px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .product-specBtn {
+        margin-top: 165px;
+        left: 20px;
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        float: left;
+    }
+    .promo-char {
+        width: 340px;
+        height: 50px;
+    }
+    .promo-char p {
+        margin-left: 40px;
+    }
+}

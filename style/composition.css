@@ -67,3 +67,45 @@
     color: white;
     background-color: black;
 }
+@media (max-width:375px) {
+    .composition-product {
+        width: 350px;
+        height: 400px;
+    }
+    .leftside-block {
+        margin-left: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    .leftside-name {
+        width: 50px;
+        height: 10px;
+        margin-top: 60px;
+    }
+    .middle-block {
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+    }
+    .middleBtn {
+        margin-left: 30px;
+        position: absolute;
+        width: 100px;
+        bottom: -280px;
+    }
+    .rightside-block {
+
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+    }
+    .rightside-name {
+        width: 50px;
+        height: 10px;
+        margin-top: 60px;
+    }
+    .rightside {
+        width: 80px;
+        margin-left: 0px;
+    }
+}

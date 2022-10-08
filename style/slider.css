@@ -102,6 +102,32 @@
   transform: scale(0.94);
 }
 
+@media (max-width:375px) {
+  .wrapper {
+    width: 350px;
+    height: 320px;
+  }
+  .wrapper .card {
+    width: 300px;
+    height: 100px;
+    margin-top: 300px;
+  }
+  .card .img img {
+    height: 100%;
+    width: 100%;
+  }
+  .wrapper .card .img {
+    height: 100px;
+    width: 100px;
+  }
+  .details p {
+    font-size: 10px;
+  }
+  .details span {
+    font-size: 12px;
+  }
+}
+
 
 
 
